@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">platzi-music-design</string>
+
+    <string name="greeting">Hello world</string>
+
+    <!-- Screen Login -->
+    <string name="login_user_hint">Usuario</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+
+    <!-- not found image -->
+    <string name="not_found_image_text">Not found image</string>
+</resources>
