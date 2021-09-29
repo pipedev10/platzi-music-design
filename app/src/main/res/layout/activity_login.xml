@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/white"
+    android:theme="@style/AppTheme.Green"
     >
 
     <ImageView
@@ -50,5 +51,5 @@
         android:layout_margin="12dp"
         android:backgroundTint="@color/color_primary"
         android:text="@string/login_button_text"
-        android:textColor="#37474F" />
+        tools:ignore="TextContrastCheck" />
 </FrameLayout>
