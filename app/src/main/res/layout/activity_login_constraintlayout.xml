@@ -18,12 +18,12 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
+        style="@style/AppTheme.EditTextStyle"
         android:id="@+id/etLoginUsername"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:drawableStart="@drawable/vector_person"
-        android:drawablePadding="12dp"
         android:hint="@string/login_user_hint"
         android:importantForAutofill="no"
         android:inputType="text"
@@ -33,12 +33,12 @@
         app:layout_constraintTop_toBottomOf="@id/ivLoginLogo" />
 
     <EditText
+        style="@style/AppTheme.EditTextStyle"
         android:id="@+id/editText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
         android:drawableStart="@drawable/vector_lock"
-        android:drawablePadding="12dp"
         android:hint="@string/login_password_hint"
         android:importantForAutofill="no"
         android:inputType="textPassword"
@@ -57,5 +57,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="ImageContrastCheck" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
