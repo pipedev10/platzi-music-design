@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/ivMainLogo"
-        android:layout_width="160dp"
-        android:layout_height="120dp"
+        android:layout_width="@dimen/width_logo"
+        android:layout_height="@dimen/height_logo"
         android:layout_gravity="center"
         android:contentDescription="@string/not_found_image_text"
         android:src="@drawable/logo"
@@ -22,7 +22,6 @@
         android:id="@+id/etMainUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
         android:autofillHints="dada"
         android:drawableStart="@drawable/vector_person"
         android:drawablePadding="12dp"
@@ -34,7 +33,6 @@
         android:id="@+id/etMainPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="12dp"
         android:drawableStart="@drawable/vector_lock"
         android:drawablePadding="12dp"
         android:hint="@string/login_password_hint"
